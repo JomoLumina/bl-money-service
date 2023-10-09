@@ -1,5 +1,5 @@
 import Home from "../screens/Home";
-import Login from "../screens/Login";
+import Login from "../screens/LoginAndRegister";
 
 interface RouteType {
   path: string;
