@@ -1,7 +1,27 @@
 {
   "name": "bl-money-service",
-  "version": "0.1.0",
+  "homepage": "https://bl-money-service.firebase.app",
+  "version": "1.0.0",
+  "license": "MIT",
   "private": true,
+  "author": "Jomo Lumina",
+  "engines": {
+    "node": ">=10"
+  },
+  "description": "Experience seamless money transfers with BL Money Services—your trusted platform for sending and receiving funds securely.",
+  "keywords": [
+    "Finance",
+    "Financial management",
+    "Budgeting",
+    "Investment",
+    "Banking",
+    "Savings",
+    "Transactions",
+    "Portfolio",
+    "Assets",
+    "Liabilities",
+    "Income"
+  ],
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -31,7 +51,6 @@
     "serve": "serve -s build",
     "build-and-serve": "npm run build && npm run serve",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "pull": "git pull && npm i && npm start"
   },
   "eslintConfig": {
@@ -48,8 +67,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
   }
 }
